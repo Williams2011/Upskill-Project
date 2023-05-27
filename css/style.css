@@ -1,0 +1,291 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+h1 {
+  font-size: 75px;
+  text-align: center;
+}
+
+h2 {
+  font-size: 45px;
+}
+
+h3 {
+  font-size: 30px;
+}
+
+h4 {
+  font-size: 20px;
+}
+
+.parag {
+  font-size: 15px;
+}
+
+.first-button {
+  background-color: limegreen;
+  color: white;
+  padding: 10px 10px;
+  border: none;
+  border-radius: 5px;
+  outline: none;
+  cursor: pointer;
+  transition-property: background-color;
+  transition-duration: 1000ms;
+  font-size: 15px;
+}
+
+.first-button:hover {
+  background-color: white;
+  border: 1px solid limegreen;
+  color: black;
+}
+
+.second-button {
+  background-color: white;
+  padding: 10px 10px;
+  border: 1px solid limegreen;
+  border-radius: 5px;
+  outline: none;
+  cursor: pointer;
+  transition-property: background-color;
+  transition-duration: 1000ms;
+  font-size: 15px;
+}
+
+.second-button:hover {
+  background-color: limegreen;
+  color: white;
+}
+
+.last-button {
+  background-color: limegreen;
+  color: white;
+  padding: 10px 10px;
+  border: none;
+  border-radius: 5px;
+  outline: none;
+  cursor: pointer;
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  transition-property: background-color;
+  transition-duration: 1000ms;
+  font-size: 15px;
+}
+
+.last-button:hover {
+  background-color: white;
+  border: 1px solid limegreen;
+  color: black;
+}
+
+.first-image {
+  width: 100%;
+  height: auto;
+  padding: auto;
+  margin-left: 10px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  margin-right: 50px;
+}
+
+.second-image {
+  width: 850px;
+  height: 700px;
+  padding-right: 10px;
+  margin-top: 20px;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  height: 100%;
+  gap: 30px;
+  padding: 50px;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  margin-left: 35px;
+  transition-property: background-color;
+  transition-duration: 5000ms;
+}
+
+.grid-items {
+  border: 1px;
+  background-color: #f1f1f1;
+  padding: 20px 30px;
+}
+
+.grid-container > :hover {
+  background-color: khaki;
+}
+
+.company-bio {
+  background-color: black;
+  color: white;
+  margin-bottom: 10px;
+  width: 100%;
+  height: 400px;
+}
+
+.company-name {
+  padding-top: 80px;
+  margin-left: 80px;
+}
+
+.parag-1 {
+  margin-left: 80px;
+  margin-bottom: 20px;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.differ {
+  display: inline;
+  position: relative;
+  float: left;
+  margin: 20px 80px;
+}
+
+.first-h3 {
+  text-align: center;
+}
+
+.parag-2 {
+  font-size: 20px;
+  text-align: center;
+}
+
+.parag-3 {
+  font-size: 20px;
+  text-align: center;
+}
+
+section {
+  display: inline-block;
+  width: 50%;
+  margin-top: 40px;
+  margin-left: 50px;
+  vertical-align: top;
+}
+
+aside {
+  display: inline-block;
+  width: 45%;
+  margin-top: 50px;
+  margin-right: 10px;
+}
+
+#topbar {
+  height: 60px;
+  padding: 12px 40px;
+  border-bottom: 1px solid #ccc;
+  background-color: white;
+  position: sticky;
+  top: 0;
+  margin-bottom: 40px;
+}
+
+nav {
+  text-align: right;
+}
+
+#button {
+  text-align: center;
+  margin-top: 30px;
+}
+
+#button-2 {
+  text-align: center;
+  margin-top: 30px;
+}
+
+#Request-button {
+  background-color: limegreen;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 10px;
+  outline: none;
+  cursor: pointer;
+  position: relative;
+  top: 15px;
+  transition-property: background-color;
+  transition-duration: 1000ms;
+  font-size: 15px;
+}
+
+#Request-button:hover {
+  background-color: white;
+  border: 1px solid limegreen;
+  color: black;
+}
+
+.logo {
+  width: 90px;
+  height: 50px;
+  margin-left: 60px;
+  outline: none;
+  position: absolute;
+  left: 30px;
+  top: 30px;
+}
+
+.menu-item {
+  margin: 0;
+  font-size: 18px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 100;
+  margin-right: 40px;
+  position: relative;
+  top: 15px;
+  cursor: pointer;
+}
+
+/* .topbar {
+  width: 100%;
+  height: 120px;
+  background-color: white;
+  padding: 0px 50px;
+  border-bottom: 1px solid #ccc;
+  box-sizing: border-box;
+  margin-bottom: 50px;
+  text-align: center;
+  cursor: pointer;
+}
+
+menu {
+  font-size: 22px;
+  text-align: right;
+}
+
+li {
+  display: inline;
+  text-decoration: none;
+  padding: 20px 20px;
+  margin-right: 50px;
+}
+
+#logo {
+  width: 85px;
+  height: 85px;
+  padding: 0px 50px;
+}
+ */
+
+#article-wrapper {
+  padding: 5% 16%;
+}
+
+.article-pic {
+  width: 800px;
+  height: 700px;
+}
+
+.article-parag {
+  padding: 10px 0px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
